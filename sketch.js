@@ -1,7 +1,7 @@
 let symbols = [
   "🍒","🍒","🍒","🍒","🍒","🍒","🍒","🍒","🍒","🍒",
   "🪙","🪙","🪙","🪙","🪙","🪙","🪙",
-  "☀️","☀️","☀️","☀️","☀️",
+  "🍀","🍀","🍀","🍀","🍀",
   "🍋","🍋","🍋","🍋",
   "🔔","🔔","🔔",
   "⭐","⭐",
@@ -24,7 +24,7 @@ let spinning = false;
 let spinTime = 0;
 let resultText = "";
 
-let startingCredits = 500;
+let startingCredits = 5000;
 let credits = 500;
 let bet = 10;
 
