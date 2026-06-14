@@ -227,7 +227,7 @@ function startSpin() {
   credits -= bet;
   winningLines = [];
 
-  jackpotTriggered = random(1) < 0.5;
+  jackpotTriggered = random(1) <  0.0001; //1 in a million for each square
   fullGridJackpot = random(1) < 0.0015;
 }
 
