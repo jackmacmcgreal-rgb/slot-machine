@@ -65,7 +65,7 @@ function updateScale() {
 
 function draw() {
   updateScale();
-  background(30);
+  background(200, 237, 178);
 
   // Title
   fill(255);
