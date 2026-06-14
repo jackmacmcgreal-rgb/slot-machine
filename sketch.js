@@ -1,11 +1,11 @@
 let symbols = [
-  "🍒","🍒","🍒","🍒","🍒","🍒","🍒","🍒","🍒","🍒",
-  "🪙","🪙","🪙","🪙","🪙","🪙","🪙",
-  "🍀","🍀","🍀","🍀","🍀",
-  "🍋","🍋","🍋","🍋",
-  "🔔","🔔","🔔",
-  "⭐","⭐",
-  "7️⃣",
+  "🍄","🍄","🍄","🍄","🍄","🍄","🍄","🍄","🍄","🍄",
+  "🌷","🌷","🌷","🌷","🌷","🌷","🌷",
+  "🌞","🌞","🌞","🌞","🌞",
+  "🦋","🦋","🦋","🦋",
+  "💐","💐","💐",
+  "🍁","🍁",
+  "🌹",
 ];
 
 let reels = [
@@ -350,13 +350,13 @@ function isWinningCell(row, col) {
 }
 
 function getMultiplier(symbol) {
-  if (symbol === "7️⃣") return 30;
-  if (symbol === "⭐") return 10;
-  if (symbol === "🔔") return 5;
-  if (symbol === "🍋") return 4;
-  if (symbol === "☀️") return 3;
-  if (symbol === "🪙") return 2;
-  if (symbol === "🍒") return 2;
+  if (symbol === "🌹") return 30;
+  if (symbol === "🍁") return 10;
+  if (symbol === "💐") return 5;
+  if (symbol === "🦋") return 4;
+  if (symbol === "🌞") return 3;
+  if (symbol === "🌷") return 2;
+  if (symbol === "🍄") return 2;
   return 0;
 }
 
