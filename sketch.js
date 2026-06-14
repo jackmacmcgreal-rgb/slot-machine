@@ -69,7 +69,7 @@ function draw() {
 
   // Title
   fill(255);
-  textSize(50 * scaleFactor);
+  textSize(30 * scaleFactor);
   textStyle(BOLD);
   text("Slot Machine Mobile", width / 2, 40 * scaleFactor);
 
