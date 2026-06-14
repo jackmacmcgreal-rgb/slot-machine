@@ -68,7 +68,7 @@ function draw() {
   background(200, 237, 178);
 
   // Title
-  fill(255);
+  fill(0);
   textSize(30 * scaleFactor);
   textStyle(BOLD);
   text("Slot Machine Mobile", width / 2, 40 * scaleFactor);
@@ -79,13 +79,13 @@ function draw() {
   text("Bet: " + bet, width * 0.75, 90 * scaleFactor);
 
   textSize(15);
-  text("What’s gambling really costing you?", width / 2, width/4);
-  text("Bet with your head not over it.", width/2, width/4 + width/20);
+  text("What’s gambling really costing you?", width / 2, width/3);
+  text("Bet with your head not over it.", width/2, width/3 + width/20);
 
   drawReels();
   drawButtons();
 
-  fill(255, 215, 0);
+  fill(0);
   textSize(30 * scaleFactor);
   text(resultText, width / 2, height * 0.7);
 
