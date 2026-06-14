@@ -25,7 +25,7 @@ let spinTime = 0;
 let resultText = "";
 
 let startingCredits = 5000;
-let credits = 500;
+let credits = 5000;
 let bet = 10;
 
 let totalWinnings = 0;
@@ -213,8 +213,8 @@ function doReset() {
   localStorage.removeItem("slotCredits");
   localStorage.removeItem("slotStartingCredits");
 
-  credits = 500;
-  startingCredits = 500;
+  credits = 5000;
+  startingCredits = 5000;
   bet = 10;
 
   resultText = "RESET";
